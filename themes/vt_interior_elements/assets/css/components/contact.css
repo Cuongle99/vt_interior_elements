@@ -1,0 +1,76 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.contact-rich {
+  color: #363a42;
+  margin-bottom: 2rem;
+  word-wrap: break-word; }
+  .contact-rich h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.65rem;
+    margin: 0 0 20px; }
+  .contact-rich .block {
+    height: auto;
+    overflow: hidden; }
+    .contact-rich .block .icon {
+      float: left;
+      width: 3rem; }
+      .rtl .contact-rich .block .icon {
+        float: right; }
+      .contact-rich .block .icon i {
+        font-size: 2rem; }
+    .contact-rich .block .data {
+      color: var(--text-color);
+      font-size: 0.875rem;
+      width: auto;
+      overflow: hidden; }
+
+.contact-form {
+  padding: 20px;
+  color: #363a42;
+  width: 100%;
+  border: 1px solid #e1e1e1; }
+  .contact-form h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 0; }
+  .contact-form form {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .contact-form form .form-group > [class*="col-"] {
+      width: 100%;
+      padding-top: 0;
+      text-align: left; }
+      .contact-form form .form-group > [class*="col-"].form-control-comment {
+        padding-top: 10px; }
+
+#contact .page-content {
+  padding: 0;
+  border: none; }
+
+/*# sourceMappingURL=contact.css.map */

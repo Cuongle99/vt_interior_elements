@@ -1,0 +1,58 @@
+:root {
+  //font family
+  --font-family-base: "Red Hat Display", sans-serif; // main font
+  --font-family-megamenu: "Red Hat Display", sans-serif; //font for menu
+  --font-family-slider: "Red Hat Display", sans-serif; // font slider
+  --font-family-heading: "Red Hat Display", sans-serif; // font for Heading tag
+  --font-family-senary: "Red Hat Display", sans-serif;
+  --font-family-septenary: "Red Hat Display", sans-serif;
+
+  //Color skin
+  --theme-color-default: #ba933e; // skin color
+
+  // Color text
+  --headings-color: #1a1a1a;
+  --link-color: #666;
+  --link-color-hover: var(--theme-color-default);
+  --text-color: #444;
+  --price-color: #666; // product page
+
+  //Button
+  --btn-bg: #000; // button
+  --btn-bg-hover: var(--theme-color-default);
+  --btn-color: #fff;
+  --btn-color-hover: #fff;
+
+  //Product item
+  --product-background: transparent;
+  --product-name-color: #444;
+  --product-name-color-hover: var(--theme-color-default);
+  --product-price-color: #373a3c; // Product price
+  --product-regular-price-color: #999999; // Old product price
+
+  --product-button-bg: #fff;
+  --product-button-color: #1a1a1a;
+  --product-button-bg-hover: var(--theme-color-default);
+  --product-button-color-hover: #fff;
+
+  //Product flag
+  --on-sale-badge-background: #f39d72;
+  --on-sale-badge-color: #fff;
+  --new-badge-background: #03A9F4;
+  --new-badge-color: #fff;
+  --sale-badge-background: #ba933e;
+  --sale-badge-color: #fff;
+  --online-only-background: #999999;
+  --online-only-color: #fff;
+  --pack-badge-background: #000;
+  --pack-badge-color: #fff;
+
+  //Boxes (including Sidebars)
+  --block-background: #fff;
+  --block-inner-background: transparent;
+  --block-heading-bg: none;
+  --block-heading-color: #000;
+  --block-text: var(--text-color);
+  --block-link-color: var(--text-color);
+  --block-link-color-hover: var(--theme-color-default);
+}

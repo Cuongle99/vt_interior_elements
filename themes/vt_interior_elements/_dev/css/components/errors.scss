@@ -1,0 +1,96 @@
+@import "theme_variables";
+
+#products,
+#pagenotfound {
+  #main {
+    .page-header {
+      margin: 2rem 0 3rem;
+      display: none;
+    }
+    .page-content {
+      margin-bottom: 60px;
+      margin-top: 100px;
+      padding: 0;
+      @media (max-width: 767px) {
+        margin-bottom: 30px;
+        margin-top: 60px;
+      }
+    }
+  }
+  .page-not-found {
+    // @include box-shadow(2px 2px 11px 0px rgba(0, 0, 0, 0.1));
+    background: white;
+    padding: 1rem;
+    font-size: $font-size-sm;
+    color: $gray-dark;
+    max-width: 570px;
+    margin: 0 auto;
+    text-align: center;
+    h1 {
+      font-size: 200px;
+      line-height: 1;
+      margin-bottom: 50px;
+      font-weight: 600;
+      color: #ccc;
+      @media (max-width: 575px) {
+        font-size: 150px;
+        margin-bottom: 30px;
+      }
+      @media (max-width: 480px) {
+        font-size: 120px;
+      }
+    }
+    h2 {
+      font-size: 20px;
+      line-height: 1.65;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #000;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      color: var(--text-color);
+      margin: 0 0 40px;
+      @media (max-width: 767px) {
+        margin-bottom: 30px;
+      }
+    }
+    h4 {
+      font-size: $base-font-size;
+      font-weight: 700;
+      margin: 0.5rem 0 1rem;
+    }
+    .search-widget {
+      float: none;
+      input {
+        width: 100%;
+      }
+    }
+    .btn--backhome {
+      margin-top: 40px;
+      @media (max-width: 767px) {
+        margin-top: 30px;
+      }
+      a {
+        display: inline-block;
+        min-width: 150px;
+        text-align: center;
+        padding: 9px 26px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #000;
+        background-color: #fff;
+        border: 2px solid #e1e1e1;
+        transition: 0.25s all ease;
+        &:hover {
+          background-color: var(--theme-color-default);
+          border-color: var(--theme-color-default);
+          color: #fff;
+        }
+      }
+    }
+  }
+}

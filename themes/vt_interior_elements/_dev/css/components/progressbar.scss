@@ -1,0 +1,15 @@
+.progress {
+  background: $gray-light-second;
+  height: 5px;
+  border-radius: 100px;
+  &-bar {
+    height: 100%;
+    border-radius: 100px;
+    transition: 0.25s ease-out;
+  }
+  .password-requirements {
+    p {
+      margin-bottom: 6px;
+    }
+  }
+}

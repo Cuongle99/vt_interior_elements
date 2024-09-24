@@ -1,0 +1,12 @@
+****templates change:
+
+themes\classic\templates\customer\password-new.tpl
+
+*** module update
+please copy all folders our module in
+
+dependencies/modules/
+
+then replace for folder old module in
+
+public_html /modules

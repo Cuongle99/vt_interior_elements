@@ -1,0 +1,36 @@
+@import "theme_variables";
+
+#main {
+  > h1 {
+    font-size: 24px;
+      line-height: 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #000;
+      margin-bottom: 50px;
+  }
+  .page-header {
+    margin-bottom: 50px;
+    > h1 {
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #000;
+      margin-bottom: 0;
+    }
+  }
+
+  .page-content {
+    // margin-bottom: 1.563rem;
+
+    h6 {
+      margin-bottom: 1.125rem;
+    }
+
+    #notifications {
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#wrapper .banner {
+  display: block;
+  margin-bottom: 1.5rem; }
+#wrapper .breadcrumb {
+  padding: 0;
+  background: transparent;
+  font-size: 16px;
+  line-height: 24px; }
+  #wrapper .breadcrumb[data-depth="1"] {
+    display: none; }
+  #wrapper .breadcrumb ol {
+    padding-left: 0;
+    margin-bottom: 0; }
+  #wrapper .breadcrumb li {
+    display: inline-flex;
+    align-items: center; }
+    #wrapper .breadcrumb li::after {
+      margin: 7px 6px;
+      color: #000;
+      content: "/";
+      font-size: 14px;
+      line-height: 24px;
+      width: 6px;
+      text-align: center; }
+    #wrapper .breadcrumb li:last-child {
+      color: var(--theme-color-default); }
+      #wrapper .breadcrumb li:last-child::after {
+        content: "";
+        margin: 0; }
+    #wrapper .breadcrumb li a {
+      color: #000; }
+#wrapper .breadcrumb-bg {
+  margin-bottom: 80px;
+  min-height: 60px;
+  background-position: center bottom !important; }
+  [dir] #wrapper .breadcrumb-bg {
+    right: 50%;
+    transform: translateX(50%); }
+  @media (max-width: 767px) {
+    #wrapper .breadcrumb-bg {
+      min-height: 120px !important;
+      margin-bottom: 60px; } }
+
+/*# sourceMappingURL=wrapper.css.map */

@@ -1,0 +1,67 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#subcategories {
+  margin-bottom: 20px;
+  border-top: 1px solid #e1e1e1; }
+  #subcategories .subcategory-heading {
+    font-size: 18px;
+    font-weight: 500; }
+  #subcategories ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px; }
+    #subcategories ul li {
+      width: calc(100% / 3);
+      padding: 10px;
+      text-align: center; }
+      @media (max-width: 992px) and (min-width: 480px) {
+        #subcategories ul li {
+          width: calc(100% / 2); } }
+      @media (max-width: 480px) {
+        #subcategories ul li {
+          width: calc(100% / 1); } }
+      #subcategories ul li .subcategory-image {
+        padding: 0 0 15px; }
+        #subcategories ul li .subcategory-image a {
+          display: block;
+          padding: 0;
+          border: 1px solid #e1e1e1; }
+          #subcategories ul li .subcategory-image a img {
+            vertical-align: top;
+            width: 100%; }
+      #subcategories ul li .subcategory-name {
+        font-size: 16px;
+        font-weight: 500; }
+        #subcategories ul li .subcategory-name:hover {
+          color: var(--theme-color-default); }
+      #subcategories ul li .cat_desc {
+        display: none; }
+      #subcategories ul li:hover .subcategory-image a {
+        border: 1px solid var(--theme-color-default); }
+
+@media (max-width: 767px) {
+  #subcategories ul {
+    justify-content: center; } }
+#category #js-product-list-header {
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=subcategories.css.map */

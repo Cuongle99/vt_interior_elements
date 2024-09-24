@@ -1,0 +1,84 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#manufacturer #main ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px; }
+  @media (max-width: 991px) and (min-width: 768px) {
+    #manufacturer #main ul {
+      grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 767px) {
+    #manufacturer #main ul {
+      gap: 15px; } }
+  @media (max-width: 575px) {
+    #manufacturer #main ul {
+      grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 400px) {
+    #manufacturer #main ul {
+      grid-template-columns: 1fr; } }
+  #manufacturer #main ul .brand {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    transition: 0.4s ease-out;
+    border: 1px solid #e1e1e1; }
+    @media (max-width: 767px) {
+      #manufacturer #main ul .brand {
+        padding: 15px; } }
+    #manufacturer #main ul .brand p {
+      margin-bottom: 0; }
+    #manufacturer #main ul .brand-infos {
+      padding: 0 0 0 0;
+      width: 100%; }
+      .rtl #manufacturer #main ul .brand-infos {
+        padding: 0 0 0 0; }
+      #manufacturer #main ul .brand-infos .brand-name {
+        display: block;
+        font-weight: 500;
+        font-size: 16px; }
+    #manufacturer #main ul .brand:hover {
+      border-color: var(--theme-color-default); }
+    #manufacturer #main ul .brand-products {
+      width: auto;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      display: none; }
+    #manufacturer #main ul .brand-img {
+      position: relative;
+      padding: 0 0 0 0;
+      width: 100%;
+      margin-bottom: 20px; }
+      .rtl #manufacturer #main ul .brand-img {
+        padding: 0 0 0 0; }
+      #manufacturer #main ul .brand-img a::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        content: ""; }
+
+/*# sourceMappingURL=brands.css.map */

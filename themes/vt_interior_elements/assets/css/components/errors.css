@@ -1,0 +1,116 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#products #main .page-header,
+#pagenotfound #main .page-header {
+  margin: 2rem 0 3rem;
+  display: none; }
+#products #main .page-content,
+#pagenotfound #main .page-content {
+  margin-bottom: 60px;
+  margin-top: 100px;
+  padding: 0; }
+  @media (max-width: 767px) {
+    #products #main .page-content,
+    #pagenotfound #main .page-content {
+      margin-bottom: 30px;
+      margin-top: 60px; } }
+#products .page-not-found,
+#pagenotfound .page-not-found {
+  background: white;
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: #363a42;
+  max-width: 570px;
+  margin: 0 auto;
+  text-align: center; }
+  #products .page-not-found h1,
+  #pagenotfound .page-not-found h1 {
+    font-size: 200px;
+    line-height: 1;
+    margin-bottom: 50px;
+    font-weight: 600;
+    color: #ccc; }
+    @media (max-width: 575px) {
+      #products .page-not-found h1,
+      #pagenotfound .page-not-found h1 {
+        font-size: 150px;
+        margin-bottom: 30px; } }
+    @media (max-width: 480px) {
+      #products .page-not-found h1,
+      #pagenotfound .page-not-found h1 {
+        font-size: 120px; } }
+  #products .page-not-found h2,
+  #pagenotfound .page-not-found h2 {
+    font-size: 20px;
+    line-height: 1.65;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000;
+    text-transform: uppercase; }
+  #products .page-not-found p,
+  #pagenotfound .page-not-found p {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color);
+    margin: 0 0 40px; }
+    @media (max-width: 767px) {
+      #products .page-not-found p,
+      #pagenotfound .page-not-found p {
+        margin-bottom: 30px; } }
+  #products .page-not-found h4,
+  #pagenotfound .page-not-found h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.5rem 0 1rem; }
+  #products .page-not-found .search-widget,
+  #pagenotfound .page-not-found .search-widget {
+    float: none; }
+    #products .page-not-found .search-widget input,
+    #pagenotfound .page-not-found .search-widget input {
+      width: 100%; }
+  #products .page-not-found .btn--backhome,
+  #pagenotfound .page-not-found .btn--backhome {
+    margin-top: 40px; }
+    @media (max-width: 767px) {
+      #products .page-not-found .btn--backhome,
+      #pagenotfound .page-not-found .btn--backhome {
+        margin-top: 30px; } }
+    #products .page-not-found .btn--backhome a,
+    #pagenotfound .page-not-found .btn--backhome a {
+      display: inline-block;
+      min-width: 150px;
+      text-align: center;
+      padding: 9px 26px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #000;
+      background-color: #fff;
+      border: 2px solid #e1e1e1;
+      transition: 0.25s all ease; }
+      #products .page-not-found .btn--backhome a:hover,
+      #pagenotfound .page-not-found .btn--backhome a:hover {
+        background-color: var(--theme-color-default);
+        border-color: var(--theme-color-default);
+        color: #fff; }
+
+/*# sourceMappingURL=errors.css.map */
